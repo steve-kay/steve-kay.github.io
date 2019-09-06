@@ -1,0 +1,56 @@
+html { 
+  background: url(images/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.name{
+	color: rgb(253, 251, 251)
+}
+.profile{
+	background-color: rgba(31, 30, 30, 0.7);
+	color: white;
+	margin-right: 12px
+}
+*{
+	box-sizing: border-box;
+} 
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=send] {
+	background-color: rgb(76, 175, 175);
+	color: rgb(255, 255, 255);
+	padding: 10px 15px;
+	border: none;
+	width: 60px;
+	cursor: pointer;
+}
+.container {
+	border-radius: 10px;
+	padding: 15px;
+	color: whitesmoke;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.input[type="send"] {
+	color:#fff;
+	padding: 10px 15px;
+	border:none;
+	width: 10%
+}
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 3px;
+	padding: 15px;
+}
+.row:after {
+	display: table;
+	clear: both;
+}
